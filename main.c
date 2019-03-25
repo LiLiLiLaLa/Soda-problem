@@ -24,6 +24,7 @@ int buy_soda(int n)
 	}
 	return 0;
 }
+//汽水问题再总结
 int main()
 {
 	int money = 0;
