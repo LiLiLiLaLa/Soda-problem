@@ -3,6 +3,7 @@
 #include <stdlib.h>
 int buy_soda(int n)
 {
+
 	static int flag = 0;//定义静态变量flag
 	//（兑换后剩余的空瓶数），保证递归后不会销毁数据。
 	if (2 * n + flag < 2)//判断本次能否至少购买一瓶汽水
